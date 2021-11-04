@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Quicksand:wght@700&display=swap');
+$heading-font-family: 'Quicksand', sans-serif !important;
+
+$body-font-family: 'Open Sans', sans-serif;
+
+.v-application {
+    .subtitle-1
+    {
+        font-family: $body-font-family;
+        font-weight: 400;
+    }
+}
+.v-application {
+    .subtitle-2
+    {
+        font-family: $body-font-family;
+        color: #16828F;
+        font-weight: 700;
+    }
+}
+
+.v-application {
+    .caption
+    {
+        font-family: $body-font-family;
+        color: #A11A79;
+        font-weight: 400;
+    }
+}
+
+.v-application {
+    .h6
+    {
+        font-family: $body-font-family;
+        color: #A11A79;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+
+.v-application {
+    .headline
+    {
+        font-family: $heading-font-family;
+        color: #16828F;
+    }
+}
+@import '~vuetify/src/styles/settings/_variables.scss';
+
